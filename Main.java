@@ -58,7 +58,9 @@ break;
                     break;
                 case 3:
                     System.out.println("Voici les produits que l'on a :");
-                    afficherProduit();
+                    for (i=0;i<produits.size();i++){
+                        produits.get(i).afficherProduit();
+                    }
                     break;
                 case 4:
                     System.out.println("Vous sohaitetez suprimer un produit ? veuillez entrer le nom du produit :");
