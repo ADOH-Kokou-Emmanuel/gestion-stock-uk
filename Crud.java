@@ -22,6 +22,21 @@ public class Crud {
     // 2- Modifier : une méthode ModifierProduit(String pNomProduit,int
     // pQuantite,double pPrix) qui ne retourne rien (void)
 
+
+
+// Setters
+public void ModifierProduit(String nomProduit,double prix,int quantite) {
+    this.nomProduit = nomProduit;
+    this.quantite = quantite;
+    this.prix = prix;
+}
+
+
+}
+
+
+    
+
     // 3- Supprimer: une méthode supprimerProduit() qui ne retourne rien(void)
 
     // 4- Afficher: une méthode afficherProduit() qui ne retourne rien(void)
