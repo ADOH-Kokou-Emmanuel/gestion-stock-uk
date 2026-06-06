@@ -41,4 +41,14 @@ public void ModifierProduit(String nomProduit,double prix,int quante) {
 
     // 4- Afficher: une méthode afficherProduit() qui ne retourne rien(void)
 
+     public void afficherProduit() {
+        System.out.println("Informations sur les produits");
+        System.out.println("Nom : " + nomProduit);
+        System.out.println("Quantité : " + quantite);
+        System.out.println("Prix : " + prix + " FCFA");
+    }
+
+
+
+
 }
